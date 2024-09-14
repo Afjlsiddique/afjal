@@ -137,7 +137,8 @@ button:nth-child(2):hover{
     box-shadow: 0 0 1rem #fff, inset 0 0 1rem #fff,0 0 2rem #3877ff, inset 0 0 2rem #3877ff,
     0 0 4rem #3877ff, inset 0 0 4rem #3877ff;
 
-}.navlist li a::after, .navlist .active::after {
+}
+.navlist li a::after, .navlist .active::after {
     content: "";
     position: absolute;
     background: #fff;
